@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Chat - Customer Module</title>
+
 <link href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel = "stylesheet">
 <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
@@ -88,6 +89,7 @@ $(document).ready(function(){
 	});
 });
 
+setInterval(function () { loadLog(); },1000);
 function loadLog(){		
 		var oldscrollHeight = $("#chatbox").attr("scrollHeight") - 20; //Scroll height before the request
 		$.ajax({
@@ -103,12 +105,13 @@ function loadLog(){
 				}				
 		  	},
 		});
-		setInterval (loadLog, 2500);
+		
 	}
+
+
 </script>
 <?php
 }
 ?>
 </body>
 </html>
-
