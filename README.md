@@ -1,3 +1,3 @@
 # webchatapp
 
-A simple web based Chat Apllication using PHP, AJAX and JQUERY
+A simple web based Chat Application using PHP, AJAX and JQUERY
