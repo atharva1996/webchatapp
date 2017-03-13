@@ -1,6 +1,9 @@
 <?
 session_start();
 if(isset($_SESSION['name'])){
+
+
+
     $text = $_POST['text'];
      
     $fp = fopen("log.html", 'a');
@@ -8,3 +11,4 @@ if(isset($_SESSION['name'])){
     fclose($fp);
 }
 ?>
+

@@ -1,0 +1,83 @@
+/* CSS Document */
+
+
+ p, span {
+    margin:0;
+    padding:0; }
+
+.login-button1 {
+    float: right;
+  width: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+
+  border: none;
+  border-radius: 4px;
+  background-size: 500% 100%;
+  background: rgba(6, 41, 61, 1);
+  box-shadow: inset 0 0 0 0 rgba(20, 196, 148, 1);
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.login-button1:hover {
+  box-shadow: inset 0 40px 0 0 rgba(20, 196, 148, 1);
+}
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:70%;
+    border: 4px solid rgba(0, 90, 120, 0.9);
+
+    overflow:auto; }
+
+    .form-container1
+    {
+     display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+     perspective: 1000;
+    }
+.msg{
+
+   
+padding: 5px;
+width: 100%;
+  /*height: 20px;*/
+  border-radius: 4px;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+
+}
+
+#usermsg {
+    
+    border:1px solid #ACD8F0;
+     }
+
+#submit { width: 60px; }
+
+.error { color: #ff0000; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; 
+    color: white;
+}
+
+.logout { float:right; }
+
+.msgln { margin:0 0 2px 0; }
